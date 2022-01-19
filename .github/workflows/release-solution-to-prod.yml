@@ -10,7 +10,7 @@ on:
       solution_name:
         description: 'name of the solution to worked on from Power Platform'
         required: true
-        default: ALMLab
+        default: ALMfirsttry
        #Do Not change these values
       solution_shipping_folder:
         description: 'folder name for staging the exported solution *do not change*'
