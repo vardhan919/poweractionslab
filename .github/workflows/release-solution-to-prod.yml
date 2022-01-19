@@ -64,6 +64,15 @@ jobs:
         solution-file: ${{ github.event.inputs.solution_outbound_folder}}/${{ github.event.inputs.solution_name }}.zip
         force-overwrite: true
         publish-changes: true
+        
+    - name: Check solution is valid or not 
+      uses: microsoft/powerplatform-actions/check-solution@v0
+      with: 
+        environment-url: ${{env.BUILD_ENVIRONMENT_URL}}
+        user-name: ${{env.USERNAME}}
+        password-secret: ${{ secrets.password }}
+        path: ${{ github.event.inputs.solution_outbound_folder}}/${{ github.event.inputs.solution_name }}.zip
+        
 
     - name: Export solution as managed
       uses: microsoft/powerplatform-actions/export-solution@0.4.0
