@@ -1,4 +1,4 @@
-name: export-and-deploy-solution-QA
+name: export-and-branch-solution
 # Export solution from DEV environment
 #  unpack it and prepare, commit and push a git branch with the changes
 
