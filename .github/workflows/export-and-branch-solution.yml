@@ -9,7 +9,7 @@ on:
       solution_name:
         description: 'name of the solution to worked on from Power Platform'
         required: true
-        default: ALMLab
+        default: ProvideSolutionName
        #Do Not change these values
       solution_exported_folder:
         description: 'folder name for staging the exported solution *do not change*'
@@ -26,7 +26,7 @@ on:
 
 env:
 #edit your values here
-  ENVIRONMENT_URL: 'https://orgd56c2d30.crm8.dynamics.com/'
+  ENVIRONMENT_URL: 'https://orgd56c2d30.crm8.dynamics.com'
   USERNAME: 'sindhuvarma@SindhuKaVar.onmicrosoft.com'
   
 
