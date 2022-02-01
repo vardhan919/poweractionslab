@@ -46,9 +46,10 @@ jobs:
       uses: microsoft/powerplatform-actions/who-am-i@0.4.0
       with:
         environment-url: ${{env.ENVIRONMENT_URL}}
-        user-name: ${{env.USERNAME}}
-        password-secret: ${{ secrets.password }}
-
+        app-id: '470c5236-06f8-43b7-9ae3-3ae9dd64085a'
+        client-secret : '57e43304-57a3-4787-9445-af6ec4cdbc6c'
+        tenant-id: '039ab421-d7d6-49a1-8d6f-43bed51541c0'
+        
     - name: export-solution action
       uses: microsoft/powerplatform-actions/export-solution@0.4.0
       with:
