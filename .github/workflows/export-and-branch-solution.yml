@@ -27,7 +27,7 @@ on:
 env:
 #edit your values here
   ENVIRONMENT_URL: 'https://skv-build.crm8.dynamics.com/'
-  USERNAME: 'Vardhanraju@SindhuKaVar.onmicrosoft.com'
+  USERNAME: 'VardhanRaju@SindhuKaVar.onmicrosoft.com'
   
 
 
